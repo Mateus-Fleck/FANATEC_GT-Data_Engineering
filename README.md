@@ -3,7 +3,7 @@
 ## Objetivo
 O objetivo deste projeto é criar um pipeline de dados utilizando tecnologias modernas de data stack, incluindo SQL, Python, Docker, Astro CLI, Airbyte, DBeaver, PostgreSQL, Airflow e DBT. O pipeline será responsável por extrair dados de uma API específica, automatizar o processo com o Airflow, realizar transformações de dados usando o DBT e criar um data warehouse (DW) gratuito com camada de analytics em uma plataforma de nuvem como AWS, Azure ou BigQuery.
 
-Python Script (API Integration)
+## Python Script (API Integration)
 O script Python para a integração com a API será incluído como uma DAG (Directed Acyclic Graph) no Airflow. Ele será responsável por fazer requisições à API e carregar os dados no PostgreSQL.
 
 ## Airflow DAGs
